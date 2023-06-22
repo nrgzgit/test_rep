@@ -1,3 +1,7 @@
-body {
+.main-page {
   background-color: green;
+}
+
+.quote-page {
+  background-color: yellow;
 }
