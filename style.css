@@ -26,6 +26,20 @@
   color: #ffff;
 }
 
+button {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  background-color: #ffff;
+  border: none;
+  color: green;
+  padding: 5px;
+}
+
+button:active {
+  background-color: yellow;
+}
+
 /* Quote Page Styles */
 
 .quote-page {
