@@ -5,17 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="index.js"></script>
   </head>
-  <body class="main-page">
-    <header class="mp-header">
-      <a href="quote.html" id="mp-quotelink">Words of Affirmation</a>
-    </header>
-    <button onclick="myFunction()">Vanilla JS on the side</button>
 
-    <script>
-      function myFunction() {
-        alert("Does it count?");
-      }
-    </script>
-  </body>
+
+
+  <body class="main-page container1">
+    <div class="mp-header">
+        <a href="quote.html" id="mp-quotelink">Words of Affirmation</a>
+    </div>
+    <header>
+        <a href="#" class="logo"> N </a>
+        <nav>
+          <ul class="navbar">
+            <li>
+              <a title="Contact" href="/about">About</a>
+            </li>
+            <li>
+              <a title="Contact" href="/projects" >Projects</a>
+            </li>
+            <li>
+              <a title="Contact" href="/contact">Contact</a>
+            </li>
+            <button id="mode-switch" onclick="toggleMode()">
+  
+          </button>
+           
+        </nav>
+    </header>
+    <button class="js-btn" onclick="jsBtn()">Vanilla JS on the side</button>
+  </body> 
 </html>
